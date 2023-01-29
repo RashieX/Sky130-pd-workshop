@@ -60,4 +60,35 @@ Diagram of a Package             |  Image of a package on a microcontroller
 * IP vs Macros: The core of the chip contains IPs and macros.
   * IPs are modules that require an extent of intelligence, Eg: SRAM, PLL etc.
   * Macros are any regular digital logic block, Eg: RISC V SoC, SPI etc. 
+ 
+ ###  Introduction to RISC-V 
+ * RISC V Architecture: 
+   * is an ISA rooted in reduced set computer (RISC) principles
+   * its unique, even revolutionary as its open source and free to use, where software can be ported, hardware can be developed & processors can be built to support it
+ * Picorv32 CPU core: 
+   * A size-optimized RISC-V CPU, a cpu core that implements the RISC-V instruction set. 
+ * Qflow: 
+   * Qflow is a complete tool chain for synthesizing digital circuits starting from verilog source and ending in physical layout for a specific target fabrication process.
+ 
+ ### From Software Applications to Hardware 
+ 
+ What are the steps for a program to run? 
+ * Starting with a C program 
+ * It is compiled into assembly language that is the (RISC V assembly language program)
+ * Assembly language program is converted into machine code which is a series of 1s and 0s 
+ * The hardware can understand this configuration 
+ 
+ ![image](https://user-images.githubusercontent.com/62239145/215348218-a8bb9431-9f8f-4e3d-b2ba-3d600c6f3fd8.png)
+ 
+ ## SoC Design and OpenLane 
+ ### Introduction to all components of open-source digital asic design
+ 
+ The ASIC design procedure requires 3 significant components: 
+ * RTL Designs - Register Transfer Logic - is the design abstraction of modeling digital circuits through HDL 
+ * EDA Tools  - Electronic Design Automation - 
+ * PDK data 
+ 
+ 
+ 
+
   
